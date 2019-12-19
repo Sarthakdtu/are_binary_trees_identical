@@ -3,7 +3,7 @@ using namespace std;
 
 bool is_identical(node* a, node* b){
     if(!a && !b)
-        return true
+        return true;
     if(!a && b)
         return false;
     if(a && !b)
